@@ -9,6 +9,5 @@
 - [Dani Cury](https://github.com/danicury06)
 - [Eduardo Rocha](https://github.com/syaoranea)
 - [Erike Rodrigues](https://github.com/Erike-Rodrigues)
-- [Fernando](https://github.com/fedkendi)
+- [Fernando Kendi Utida](https://github.com/fedkendi)
 - [Fabricio Messias](https://github.com/FabricioMessias)
-
