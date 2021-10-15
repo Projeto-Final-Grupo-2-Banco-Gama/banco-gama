@@ -8,7 +8,7 @@
 - [Assis Daniel](https://github.com/AssDan)
 - [Dani Cury](https://github.com/danicury06)
 - [Eduardo Rocha](https://github.com/syaoranea)
-- [Erik]()
+- [Erike Rodrigues](https://github.com/Erike-Rodrigues)
 - [Fernando](https://github.com/fedkendi)
 - [Fabricio Messias](https://github.com/FabricioMessias)
 
