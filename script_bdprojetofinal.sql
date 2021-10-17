@@ -29,3 +29,26 @@ insert into tb_cliente values (
 insert into tb_cliente values (
 	null,"777.777.777-7", "eduardo@itau.com", "Eduardo", "(11)97777-7777"
 );
+
+-- inserir dados na tabela Conta
+
+insert into tb_conta values(
+	null, 9001, 200, 0,1
+);
+
+insert into tb_conta values(
+	null, 1101, 1700, 0,2
+);
+
+insert into tb_conta values(
+	null, 8055, 2300, 1,3
+);
+insert into tb_conta values(
+	null, 1001, 4200, 2,4
+);
+insert into tb_conta values(
+	null, 7101, 5800, 0,5
+);
+insert into tb_conta values(
+	null, 4010, 2200, 2,6
+);
