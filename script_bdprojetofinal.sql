@@ -30,7 +30,10 @@ insert into tb_cliente values (
 	null,"777.777.777-7", "eduardo@itau.com", "Eduardo", "(11)97777-7777"
 );
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 376de557c540661333e321a60fdbb24c43957227
 -- inserir dados na tabela Conta
 
 insert into tb_conta values(
