@@ -1,11 +1,16 @@
 package br.itau.projetofinal.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 
@@ -29,6 +34,10 @@ public class Cliente {
 
     @Column(name = "email", length = 100, nullable = false, unique = true)
     private String email;
+
+    @OneToMany(mappedBy = "titular")
+    @JsonIgnoreProperties("titular")
+    private List<Conta> clientes;
 
     public long getCodigo() {
         return codigo;
@@ -68,6 +77,14 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public List<Conta> getClientes() {
+        return clientes;
+    }
+
+    public void setClientes(List<Conta> clientes) {
+        this.clientes = clientes;
     }
 
     
