@@ -9,4 +9,5 @@ import br.itau.projetofinal.model.Conta;
 public interface ContaRepo extends CrudRepository <Conta, Long> {
     
     public List<Conta> findAll();
+    
 }
