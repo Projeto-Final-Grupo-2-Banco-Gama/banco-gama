@@ -10,7 +10,7 @@ public class ContaDTO {
     private Cliente titular;
     private double saldo;
 
-
+// construtorgit
     public ContaDTO(Conta user) {
         this.numero = user.getNumero();
         this.agencia = user.getAgencia();
