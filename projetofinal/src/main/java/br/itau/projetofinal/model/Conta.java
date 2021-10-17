@@ -10,6 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 @Table(name = "tb_conta")
 public class Conta {
@@ -29,6 +31,7 @@ public class Conta {
 
     @ManyToOne
     @JoinColumn(name = "cod_cliente")
+    @JsonIgnoreProperties("clientes")
     private Cliente titular;
 
     public long getNumero() {

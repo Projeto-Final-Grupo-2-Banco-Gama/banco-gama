@@ -10,4 +10,5 @@ public interface ContaRepo extends CrudRepository <Conta, Long> {
     
     public List<Conta> findAll();
     
+    
 }
