@@ -1,5 +1,6 @@
 package br.itau.projetofinal.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,40 +11,45 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.itau.projetofinal.model.Cliente;
+import br.itau.projetofinal.dto.ContaDTO;
 import br.itau.projetofinal.model.Conta;
 import br.itau.projetofinal.repository.ContaRepo;
-import br.itau.projetofinal.repository.ClienteRepo;
 
 @RestController
 @CrossOrigin("*")
-@RequestMapping("/conta")
+@RequestMapping("/contas")
 public class ContaController {
 
     @Autowired
     private ContaRepo repo;
-    @Autowired
-    private ClienteRepo repo1;
-
-
-    @GetMapping("/{numero}")
-    public ResponseEntity<Conta> buscarConta(@PathVariable long numero) {
-        Conta conta = repo.findById(numero).orElse(null);
+    
+    // consultar a Conta pelo id (número da conta)
+    @GetMapping("/{id}")
+    public ResponseEntity<Conta> buscarConta(@PathVariable long id) {
+        Conta conta = repo.findById(id).orElse(null);
 
         if(conta != null) { // achou a conta
             return ResponseEntity.ok(conta); // ok = 200 = sucesso
         }
         return ResponseEntity.notFound().build(); // notFoud = 404 = conta não encontrada
     }
+        
+    // listar todas as contas  
+    @GetMapping
+    public List<ContaDTO> listarContas() {
+        List<Conta> listaContas = repo.findAll();
+        List<ContaDTO> listaDTO = new ArrayList<>();
 
-    @GetMapping("/todos")
-    public ResponseEntity<List<Conta>> listarTodos(){
-        List<Conta> lista = (List<Conta>) repo.findAll();
-        return ResponseEntity.ok(lista);
+        for (Conta conta : listaContas) {
+            listaDTO.add(new ContaDTO(conta));
+        }
+        return listaDTO;
     }
-    @GetMapping("/clientes")
-    public ResponseEntity<List<Cliente>> listarClientes(){
-        List<Cliente> lista = (List<Cliente>) repo1.findAll();
+
+    // listar todas as contas e os clientes de cada conta
+    @GetMapping("/todos")
+    public ResponseEntity<List<Conta>> listarContasEclientesDaConta(){
+        List<Conta> lista = (List<Conta>) repo.findAll();
         return ResponseEntity.ok(lista);
     }
 }

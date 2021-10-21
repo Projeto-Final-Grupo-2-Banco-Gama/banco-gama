@@ -1,69 +1,47 @@
 package br.itau.projetofinal.dto;
 
-import br.itau.projetofinal.model.Cliente;
 import br.itau.projetofinal.model.Conta;
 
 public class ContaDTO {
     private long numero;
     private long agencia;
     private long tipo;
-    private Cliente titular;
     private double saldo;
 
-// construtorgit
-    public ContaDTO(Conta user) {
-        this.numero = user.getNumero();
-        this.agencia = user.getAgencia();
-        this.tipo = user.getTipo();
-        this.titular = user.getTitular();
-        this.saldo = user.getSaldo();
+    public ContaDTO(Conta conta) {
+        this.numero = conta.getNumero();
+        this.agencia = conta.getAgencia();
+        this.tipo = conta.getTipo();
+        this.saldo = conta.getSaldo();
     }
-
 
     public long getNumero() {
         return numero;
     }
 
-
     public void setNumero(long numero) {
         this.numero = numero;
     }
-
 
     public long getAgencia() {
         return agencia;
     }
 
-
     public void setAgencia(long agencia) {
         this.agencia = agencia;
     }
-
 
     public long getTipo() {
         return tipo;
     }
 
-
     public void setTipo(long tipo) {
         this.tipo = tipo;
     }
 
-
-    public Cliente getTitular() {
-        return titular;
-    }
-
-
-    public void setTitular(Cliente titular) {
-        this.titular = titular;
-    }
-
-
     public double getSaldo() {
         return saldo;
     }
-
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
