@@ -9,13 +9,12 @@ public class ClienteDTO {
     private String email;
     private String telefone;
 
-    public ClienteDTO(Cliente user) {
-        this.codigo = user.getCodigo();
-        this.nome = user.getNome();
-        this.cpf = user.getCpf();
-        this.email = user.getEmail();
-        this.telefone = user.getTelefone();
-
+    public ClienteDTO(Cliente cliente) {
+        this.codigo = cliente.getCodigo();
+        this.nome = cliente.getNome();
+        this.cpf = cliente.getCpf();
+        this.email = cliente.getEmail();
+        this.telefone = cliente.getTelefone();
     }
 
     public String getNome() {
