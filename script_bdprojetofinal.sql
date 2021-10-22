@@ -9,6 +9,7 @@ drop database bdprojetofinal;
 
 -- exibir tabela Cliente
 select * from tb_cliente;
+select * from tb_conta;
 
 -- inserir dados na tabela Cliente
 insert into tb_cliente values (
@@ -30,14 +31,10 @@ insert into tb_cliente values (
 	null,"777.777.777-7", "eduardo@itau.com", "Eduardo", "(11)97777-7777"
 );
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 376de557c540661333e321a60fdbb24c43957227
 -- inserir dados na tabela Conta
 
 insert into tb_conta values(
-	null, 9001, 200, 0,1
+	null, 901, 200, 0,1
 );
 
 insert into tb_conta values(
@@ -55,4 +52,19 @@ insert into tb_conta values(
 );
 insert into tb_conta values(
 	null, 4010, 2200, 2,6
+);
+insert into tb_conta values(
+	null, 901, 10200, 2,1
+);
+insert into tb_conta values(
+	null, 901, 1000, 1,1
+);
+insert into tb_conta values(
+	null, 4010, 200, 0,3
+);
+insert into tb_conta values(
+	null, 4010, 56500, 2,5
+);
+insert into tb_conta values(
+	null, 4010, 46800, 0,6
 );
