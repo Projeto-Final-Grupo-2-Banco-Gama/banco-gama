@@ -31,7 +31,7 @@ public class Conta {
 
     @ManyToOne
     @JoinColumn(name = "cod_cliente")
-    @JsonIgnoreProperties("clientes")
+    @JsonIgnoreProperties("contas")
     private Cliente titular;
 
     public long getNumero() {
