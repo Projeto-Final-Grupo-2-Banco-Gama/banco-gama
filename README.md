@@ -13,7 +13,6 @@
 - [Entregaveis](#Entregáveis)
 - [Consultas Extras](#Consultas)
 
-
 #
 ### 💻 Desenvolvedores 
 
@@ -33,14 +32,6 @@ consulta).
 #
 
 ### Tecnologias utilizadas: 
-
-<div style="display: inline_block">
-    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-    <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-    <img align="center" alt="Mysql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div>
-
-#
 
 ### Objetivos:
 Construir uma API Spring BOOT que possua 2 endpoints principais:
@@ -124,7 +115,16 @@ Visual Studio Code Windows
 
 Postman
 
-MySQL Workbench 8.0
+MySQL Workbench 8.0 CE
+
+#
+<div style="display: inline_block">
+    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+    <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+    <img align="center" alt="Mysql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+</div>
+
+#
 
 
 
