@@ -37,7 +37,7 @@ public class Cliente {
 
     @OneToMany(mappedBy = "titular")
     @JsonIgnoreProperties("titular")
-    private List<Conta> clientes;
+    private List<Conta> contas;
 
     public long getCodigo() {
         return codigo;
@@ -49,6 +49,14 @@ public class Cliente {
 
     public String getNome() {
         return nome;
+    }
+
+    public List<Conta> getContas() {
+        return contas;
+    }
+
+    public void setContas(List<Conta> contas) {
+        this.contas = contas;
     }
 
     public void setNome(String nome) {
@@ -79,13 +87,7 @@ public class Cliente {
         this.email = email;
     }
 
-    public List<Conta> getClientes() {
-        return clientes;
-    }
-
-    public void setClientes(List<Conta> clientes) {
-        this.clientes = clientes;
-    }
+   
 
     
 
