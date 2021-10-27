@@ -16,12 +16,56 @@
 #
 ### 💻 Desenvolvedores 
 
-- [Assis Daniel](https://github.com/AssDan)
-- [Daniela Cury](https://github.com/danicury06)
-- [Eduardo Rocha](https://github.com/syaoranea)
-- [Erike Rodrigues](https://github.com/Erike-Rodrigues)
-- [Fernando Kendi Utida](https://github.com/fedkendi)
-- [Fabricio Messias](https://github.com/FabricioMessias)
+### Entre em contato conosco:
+
+<details>
+    <summary>Assis Daniel</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/assis-daniel-sales-pcd-458570168/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AssDan)
+
+
+</details>
+
+<details>
+    <summary>Daniela Cury</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniela-cury/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danicury06)
+
+</details>
+
+<details>
+    <summary>Eduardo Rocha</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-rocha-25870a1a6/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syaoranea)
+
+</details>
+
+<details>
+    <summary>Erike Rodrigues</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erike-rodrigues-b5b060213)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Erike-Rodrigues)
+
+</details>
+
+<details>
+    <summary>Fernando Kendi Utida</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fedkendi/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fedkendi)
+
+</details>
+
+<details>
+    <summary>Fabricio Messias</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabricio-messias/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FabricioMessias)
+
+</details>
 
 #
 ### Desafio:
