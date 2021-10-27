@@ -152,6 +152,11 @@ Todos os dados devem ser retornados em formato JSON.
 
 - apagar cliente pelo código único do cliente
 
+- atualizar dados da conta
+
+- apagar conta pelo código da conta
+
+
 #
 ### Ferramenta:
 
