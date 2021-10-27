@@ -13,16 +13,59 @@
 - [Entregaveis](#Entregáveis)
 - [Consultas Extras](#Consultas)
 
-
 #
 ### 💻 Desenvolvedores 
 
-- [Assis Daniel](https://github.com/AssDan)
-- [Daniela Cury](https://github.com/danicury06)
-- [Eduardo Rocha](https://github.com/syaoranea)
-- [Erike Rodrigues](https://github.com/Erike-Rodrigues)
-- [Fernando Kendi Utida](https://github.com/fedkendi)
-- [Fabricio Messias](https://github.com/FabricioMessias)
+### Entre em contato conosco:
+
+<details>
+    <summary>Assis Daniel</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/assis-daniel-sales-pcd-458570168/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AssDan)
+
+
+</details>
+
+<details>
+    <summary>Daniela Cury</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniela-cury/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danicury06)
+
+</details>
+
+<details>
+    <summary>Eduardo Rocha</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-rocha-25870a1a6/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syaoranea)
+
+</details>
+
+<details>
+    <summary>Erike Rodrigues</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erike-rodrigues-b5b060213)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Erike-Rodrigues)
+
+</details>
+
+<details>
+    <summary>Fernando Kendi Utida</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fedkendi/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fedkendi)
+
+</details>
+
+<details>
+    <summary>Fabricio Messias</summary>
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabricio-messias/)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FabricioMessias)
+
+</details>
 
 #
 ### Desafio:
@@ -33,14 +76,6 @@ consulta).
 #
 
 ### Tecnologias utilizadas: 
-
-<div style="display: inline_block">
-    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-    <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-    <img align="center" alt="Mysql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-</div>
-
-#
 
 ### Objetivos:
 Construir uma API Spring BOOT que possua 2 endpoints principais:
@@ -124,7 +159,16 @@ Visual Studio Code Windows
 
 Postman
 
-MySQL Workbench 8.0
+MySQL Workbench 8.0 CE
+
+#
+<div style="display: inline_block">
+    <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+    <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+    <img align="center" alt="Mysql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+</div>
+
+#
 
 
 
