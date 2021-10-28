@@ -52,6 +52,29 @@ public class ClienteController {
         return listaDTO;
     }
 
+    @GetMapping("/perfilacesso")
+    public List<ClienteDTO> listarPorNomePerfil() {
+        List<Cliente> listaClientes = repo.findAllByOrderByNome();
+        List<ClienteDTO> listaDTO = new ArrayList<>();
+
+        for (Cliente cliente : listaClientes) {
+            listaDTO.add(new ClienteDTO(cliente, 1));
+        }
+        return listaDTO;
+    }
+
+    @GetMapping("/perfil/{codigo}")
+    public ResponseEntity<ClienteDTO> buscarContaPerfil(@PathVariable long codigo) {
+        Cliente cliente = repo.findById(codigo).orElse(null);
+        ClienteDTO clientedto = new ClienteDTO(cliente, 1);
+        if(cliente != null) { // achou o cliente
+            return ResponseEntity.ok(clientedto); // ok = 200 = sucesso
+        }
+        return ResponseEntity.notFound().build(); // notFoud = 404 = conta não encontrada
+    }
+
+
+
     // consultar cliente pelo código
     @GetMapping("/{codigo}")
     public ResponseEntity<Cliente> buscarConta(@PathVariable long codigo) {
