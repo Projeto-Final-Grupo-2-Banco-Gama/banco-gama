@@ -52,7 +52,8 @@ public class ClienteController {
         return listaDTO;
     }
 
-    @GetMapping("/perfilacesso")
+    // consultar os contatos de todos os clientes
+    @GetMapping("/contatotodosclientes")
     public List<ClienteDTO> listarPorNomePerfil() {
         List<Cliente> listaClientes = repo.findAllByOrderByNome();
         List<ClienteDTO> listaDTO = new ArrayList<>();
@@ -63,7 +64,8 @@ public class ClienteController {
         return listaDTO;
     }
 
-    @GetMapping("/perfil/{codigo}")
+    // consultar os contato de um cliente específico
+    @GetMapping("/contatocliente/{codigo}")
     public ResponseEntity<ClienteDTO> buscarContaPerfil(@PathVariable long codigo) {
         Cliente cliente = repo.findById(codigo).orElse(null);
         ClienteDTO clientedto = new ClienteDTO(cliente, 1);
@@ -72,8 +74,6 @@ public class ClienteController {
         }
         return ResponseEntity.notFound().build(); // notFoud = 404 = conta não encontrada
     }
-
-
 
     // consultar cliente pelo código
     @GetMapping("/{codigo}")
