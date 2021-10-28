@@ -88,8 +88,11 @@ b. Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titul
 ### Especificações:
 
 Algumas tecnologias são obrigatórias para este projeto:
+
 Banco de Dados: MySQL
+
 API: SpringBoot
+
 Modelagem de Dados:
 Todo cliente possui os seguintes dados para serem cadastrados
 
