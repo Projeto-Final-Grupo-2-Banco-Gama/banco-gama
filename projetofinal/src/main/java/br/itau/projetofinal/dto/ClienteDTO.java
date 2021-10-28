@@ -17,6 +17,15 @@ public class ClienteDTO {
         this.telefone = cliente.getTelefone();
     }
 
+    public ClienteDTO(Cliente cliente, long numero) {
+        this.codigo = cliente.getCodigo();
+        this.nome = cliente.getNome();
+        this.cpf = "*******";
+        this.email = cliente.getEmail();
+        this.telefone = cliente.getTelefone();
+    }
+
+
     public String getNome() {
         return nome;
     }
