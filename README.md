@@ -125,43 +125,70 @@ Toda conta bancária possui os seguintes dados
 Endpoint para consulta de todas as contas (deve retornar uma lista de objetos do tipo
 que armazena Conta Bancária):
 
-/contas
+    /contas
 
 Endpoint para consultas do detalhe da conta
 
-/contas/{id}
+    /contas/{id}
 
 Todos os dados devem ser retornados em formato JSON.
 
 #
 ### Consultas:
- Novas consultas adicionadas pela equipe.
+
+ Novos Endpoints para consultas adicionadas pela equipe.
 
 - consultar todas as contas de um tipo específico
 
+         /contas/tipo/{tipo}
+
 - consultar todos os clientes ordenados pelo nome
+
+        /cliente/todosordenadopornome
 
 - consultar todas as contas de um cliente pelo seu nome
 
+        /cliente/contasdocliente
+
 - consultar os dados de um cliente específico
+
+        /cliente/nome
 
 - consultar todas as contas e dados dos clientes em Páginas
 
+        /contas/listarempaginas?size=4&page=0
+
 - criar novo cliente
+
+        /cliente/novo
 
 - atualizar dados do cliente
 
+        /cliente/atualizar
+
 - criar nova conta para um cliente
+
+        /contas/novo
 
 - apagar cliente pelo código único do cliente
 
+        /cliente/apagar/{codigo}
+
 - atualizar dados da conta
+
+        /contas/atualizar
 
 - apagar conta pelo código da conta
 
+        /contas/apagar/{codigo}
+
 - consultar os contatos de todos os clientes
 
+        /contatotodosclientes
+
 - consultar os contato de um cliente específico
+
+        /contatocliente/{codigo}
 
 #
 ### Ferramenta:
