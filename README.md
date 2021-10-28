@@ -159,6 +159,9 @@ Todos os dados devem ser retornados em formato JSON.
 
 - apagar conta pelo código da conta
 
+- consultar os contatos de todos os clientes
+
+- consultar os contato de um cliente específico
 
 #
 ### Ferramenta:
