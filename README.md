@@ -159,6 +159,9 @@ Todos os dados devem ser retornados em formato JSON.
 
 - apagar conta pelo código da conta
 
+- consultar os contatos de todos os clientes
+
+- consultar os contato de um cliente específico
 
 #
 ### Ferramenta:
@@ -176,7 +179,6 @@ MySQL Workbench 8.0 CE
     <img align="center" alt="Mysql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
 </div>
 
-#
 
 
 
