@@ -184,11 +184,11 @@ Todos os dados devem ser retornados em formato JSON.
 
 - consultar os contatos de todos os clientes
 
-        /contatotodosclientes
+        /cliente/contatotodosclientes
 
 - consultar os contato de um cliente específico
 
-        /contatocliente/{codigo}
+        /cliente/contatocliente/{codigo}
 
 #
 ### Ferramenta:
